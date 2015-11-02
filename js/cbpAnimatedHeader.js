@@ -24,16 +24,20 @@ var cbpAnimatedHeader = (function() {
 		}, false );
 	}
 
+
+	//срипт отвечающий за увелчиение/уменьшение полсоки хидера при скроле
+
 	function scrollPage() {
-		var sy = scrollY();
+		/*var sy = scrollY();
 		if ( sy >= changeHeaderOn ) {
 			classie.add( header, 'navbar-shrink' );
 		}
 		else {
 			classie.remove( header, 'navbar-shrink' );
-		}
-		didScroll = false;
+		 }*/
 	}
+		didScroll = false;
+
 
 	function scrollY() {
 		return window.pageYOffset || docElem.scrollTop;

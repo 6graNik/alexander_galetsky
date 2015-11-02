@@ -23,7 +23,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #ccc;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     font-style: normal;
@@ -46,29 +46,16 @@ hr.star-primary {
     padding: 0;
     max-width: 250px;
     border: 0;
-    border-top: solid 5px;
+    border-top: solid 2px;
     text-align: center;
 }
 
-hr.star-light:after,
-hr.star-primary:after {
-    content: "\f005";
-    display: inline-block;
-    position: relative;
-    top: -.8em;
-    padding: 0 .25em;
-    font-family: FontAwesome;
-    font-size: 2em;
-}
+
 
 hr.star-light {
-    border-color: #fff;
+    border-color: #333;
 }
 
-hr.star-light:after {
-    color: #fff;
-    background-color: #18bc9c;
-}
 
 hr.star-primary {
     border-color: #2c3e50;
@@ -86,7 +73,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    background: #dde4e6;
 }
 
 header .container {
@@ -104,12 +91,14 @@ header .intro-text .name {
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
     font-size: 2em;
-    font-weight: 700;
+    color: #333;
+    font-weight: lighter;
 }
 
 header .intro-text .skills {
     font-size: 1.25em;
-    font-weight: 300;
+    color: #333;
+    font-weight: lighter;
 }
 
 @media(min-width:768px) {
@@ -148,6 +137,7 @@ header .intro-text .skills {
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+        color: #333;
     }
 }
 
@@ -155,6 +145,7 @@ header .intro-text .skills {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+    background: #fff;
 }
 
 .navbar a:focus {
@@ -186,7 +177,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #ccc;
 }
 
 section.success a,
@@ -279,7 +270,7 @@ section.success a.active {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #18bc9c;
+    color: #ccc;
     background: #fff;
 }
 
@@ -332,7 +323,7 @@ section.success a.active {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #18bc9c;
+    color: #ccc;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -461,4 +452,9 @@ footer .footer-below {
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
+}
+
+/* добавленные мной стили */
+header .img-responsive {
+    border-radius: 50%;
 }
