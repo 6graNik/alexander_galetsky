@@ -4869,16 +4869,16 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 }
 
 .navbar-default .navbar-brand {
-    color: #ffffff
+    color: #333333;
 }
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-    color: #18bc9c;
+    color: #333333;
     background-color: transparent
 }
 
 .navbar-default .navbar-text {
-    color: #777777
+    color: #333333;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -4905,11 +4905,11 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: #1a242f
+/ / background-color : #1a242f
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #ffffff
+    background-color: #333333;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
@@ -4918,7 +4918,7 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
     background-color: #1a242f;
-    color: #ffffff
+    color: #333
 }
 
 @media (max-width: 767px) {
